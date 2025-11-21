@@ -28,7 +28,7 @@ export default function Header() {
             <li><Link to="/contact">Contact</Link></li>
         </ul>
         <div className="menu-right">
-            <a className="menu-btn" href="https://wa.me/917834868865?text=Hello%20Deepanshu">Let's Talk<i class="ri-message-3-line"></i></a>
+            <a className="menu-btn" href="https://wa.me/917834868865?text=Hello%20Deepanshu">Let's Talk<i className="ri-message-3-line"></i></a>
             <i
                 id="menu-icon"
                 className={menuOpen ? "bx bx-x" : "bx bx-menu"}

@@ -6,7 +6,7 @@ export default function Skills(){
     return (
         <section className="skills" id="skills">
             <div className="skill-content">
-                <span className="skill-h-line"><i class="ri-shining-2-line"></i>Skills</span>
+                <span className="skill-h-line"><i className="ri-shining-2-line"></i>Skills</span>
                 <div className="learned">
                     <h2>What I <span>learned</span></h2>
                     <div className="skill-row">
@@ -28,16 +28,16 @@ export default function Skills(){
                     </div>
                 </div>
             </div>
-            <div class="certificate">
+            <div className="certificate">
                 <h2>Here Are My <span>certificate</span></h2>
-                <div class="h-btn">
+                <div className="h-btn">
                 <Link to="/certificates" className="btn1">
                     certificate
-                    <i class="ri-arrow-right-s-line"></i>
+                    <i className="ri-arrow-right-s-line"></i>
                 </Link>
-                <a href="/Resume.pdf" class="btn2">
+                <a href="/Resume.pdf" className="btn2">
                     Download CV
-                    <i class="ri-download-2-line"></i>
+                    <i className="ri-download-2-line"></i>
                 </a>
             </div>
         </div>

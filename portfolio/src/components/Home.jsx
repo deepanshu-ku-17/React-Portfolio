@@ -3,11 +3,12 @@ import { ReactTyped } from "react-typed";
 import { Link } from "react-router-dom";
 
 
+
 export default function Home() {
     return (
         <section className="home" id="home">
         <div className="home-text">
-            <span className="h-line"><i class="ri-shining-2-line"></i>This is Deepanshu Kumar</span>
+            <span className="h-line"><i className="ri-shining-2-line"></i>This is Deepanshu Kumar</span>
             <h1 className="hero-title">Software Engineer</h1>
             <div className="typed-wrapper">
             <span className="typed-text">
@@ -21,8 +22,10 @@ export default function Home() {
                 <a href="https://www.instagram.com/17_deepanshu/" aria-label="linkedin"><i className='bx bxl-instagram'></i></a>
             </div>
             <div className="h-btn" style={{marginTop: '20px'}}>
-                <link className="btn1" to="/projects">Projects<i class="ri-arrow-right-s-line"></i></link>
-                <a className="btn2" href="/Resume.pdf">Download CV<i class="ri-download-2-line"></i></a>
+                <Link className="btn1" to="/projects">
+                    Projects <i className="ri-arrow-right-s-line"></i>
+                </Link>
+                <a className="btn2" href="/Resume.pdf">Download CV<i className="ri-download-2-line"></i></a>
             </div>
         </div>
         <div className="hero-image">

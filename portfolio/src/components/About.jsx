@@ -7,7 +7,7 @@ export default function About(){
                 <img src="/images/about-img.png" alt="Deepanshu's Pic" />
             </div>
             <div className="about-text">
-                <span className="h-line"><i class="ri-shining-2-line"></i>About Me</span>
+                <span className="h-line"><i className="ri-shining-2-line"></i>About Me</span>
                 <h2>More <span> About Me</span></h2>
                 <h5>Hello! I'm Deepanshu Kumar, a multidisciplinary Software Engineer 
                     and Web Developer based in India. I'm very passionate about the 
@@ -22,8 +22,8 @@ export default function About(){
                     otherwise than what it might appear to others that what you were.
                 </p>
                 <div className="h-btn" style={{marginTop: '20px'}}>
-                    <a className="btn1" href="https://wa.me/+917834868865?text=Hello%20Deepanshu%2C%20I%20want%20to%20hire%20you">Hire Me<i class="ri-arrow-right-s-line"></i></a>
-                    <a className="btn2" href="/Resume.pdf">Download CV<i class="ri-download-2-line"></i></a>
+                    <a className="btn1" href="https://wa.me/+917834868865?text=Hello%20Deepanshu%2C%20I%20want%20to%20hire%20you">Hire Me<i className="ri-arrow-right-s-line"></i></a>
+                    <a className="btn2" href="/Resume.pdf">Download CV<i className="ri-download-2-line"></i></a>
             </div>
             </div>
         </section>
