@@ -1,6 +1,22 @@
-import React from "react";
+
+import React, { useState } from "react";
 
 export default function Contact() {
+    const [submitted, setSubmitted] = useState(false);
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const form = e.target;
+        const data = new FormData(form);
+        fetch("/", {
+            method: "POST",
+            body: data,
+        })
+        .then(() => {
+            setSubmitted(true);
+            form.reset();
+        })
+        .catch((error) => alert(error));
+    };
     return (
         <section className="contact" id="contact">
             <span className="h-line">
@@ -29,12 +45,18 @@ export default function Contact() {
                     name="contact-form"
                     method="POST"
                     data-netlify="true"
+                    onSubmit={handleSubmit}
                 >
                     <input type="hidden" name="form-name" value="contact-form" />
                     <input type="text" name="name" placeholder="Your Name" required />
                     <input type="email" name="email" placeholder="Email Address..." required />
                     <textarea name="message" placeholder="Write Message here..." required />
                     <button type="submit" className="submit-btn">Submit Now</button>
+                    {submitted && (
+                        <p style={{ color: "#c28b78", marginTop: "15px", fontSize: "18px" }}>
+                            ✔ Thank you! Your message has been sent.
+                        </p>
+                    )}
                 </form>
             </div>
         </section>
