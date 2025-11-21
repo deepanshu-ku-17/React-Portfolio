@@ -1,5 +1,7 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
+import { Link } from "react-router-dom";
+
 
 export default function Home() {
     return (
@@ -19,7 +21,7 @@ export default function Home() {
                 <a href="https://www.instagram.com/17_deepanshu/" aria-label="linkedin"><i className='bx bxl-instagram'></i></a>
             </div>
             <div className="h-btn" style={{marginTop: '20px'}}>
-                <a className="btn1" href="/projects">Projects<i class="ri-arrow-right-s-line"></i></a>
+                <link className="btn1" to="/projects">Projects<i class="ri-arrow-right-s-line"></i></link>
                 <a className="btn2" href="/Resume.pdf">Download CV<i class="ri-download-2-line"></i></a>
             </div>
         </div>
