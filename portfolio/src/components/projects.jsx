@@ -10,7 +10,7 @@ export default function Portfolio() {
             <div className="portfolio-content">
                 <div className="p-card">
                     <div className="p-img">
-                        <img src="src/public/images/Blockaid.jpg" alt="BlockAid" />
+                        <img src="/images/Blockaid.jpg" alt="BlockAid" />
                     </div>
                     <div className="p-info">
                         <div className="p-left">
@@ -26,7 +26,7 @@ export default function Portfolio() {
                 </div>
                 <div className="p-card">
                     <div className="p-img">
-                        <img src="src/public/images/e waste.jpg" alt="E-Waste" />
+                        <img src="/images/e waste.jpg" alt="E-Waste" />
                     </div>
                     <div className="p-info">
                         <div className="p-left">
@@ -42,7 +42,7 @@ export default function Portfolio() {
                 </div>
                 <div className="p-card">
                     <div className="p-img">
-                        <img src="src/public/images/elearning.png" alt="Syntax Sphere" />
+                        <img src="/images/elearning.png" alt="Syntax Sphere" />
                     </div>
                     <div className="p-info">
                         <div className="p-left">

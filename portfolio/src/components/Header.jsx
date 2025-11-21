@@ -17,7 +17,7 @@ export default function Header() {
     return (
         <header className={sticky ? "sticky" : ""}>
             <div className="logo">
-                <img src="src/public/images/logo.png" alt="logo" />
+                <img src="/images/logo.png" alt="logo" />
             </div>
         <ul className={menuOpen ? "menulist open" : "menulist"}>
             <li><Link to="/">Home</Link></li>

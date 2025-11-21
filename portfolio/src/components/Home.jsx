@@ -19,12 +19,12 @@ export default function Home() {
                 <a href="https://www.instagram.com/17_deepanshu/" aria-label="linkedin"><i className='bx bxl-instagram'></i></a>
             </div>
             <div className="h-btn" style={{marginTop: '20px'}}>
-                <a className="btn1" href="#projects">Projects<i class="ri-arrow-right-s-line"></i></a>
-                <a className="btn2" href="src/public/Resume.pdf">Download CV<i class="ri-download-2-line"></i></a>
+                <a className="btn1" href="/projects">Projects<i class="ri-arrow-right-s-line"></i></a>
+                <a className="btn2" href="/Resume.pdf">Download CV<i class="ri-download-2-line"></i></a>
             </div>
         </div>
         <div className="hero-image">
-            <img src="src/public/images/home-img.png" alt="Deepanshu's Pic" />
+            <img src="/images/home-img.png" alt="Deepanshu's Pic" />
         </div>
         </section>
     );
