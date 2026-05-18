@@ -27,7 +27,7 @@ export default function Contact() {
                     <h2>Got a Project <span>Let's Talk</span></h2>
                     <div className="email">
                         <p>Email:</p>
-                        <h6>Dipanshuroy584@gmail.com</h6>
+                        <h6>work.deepanshukumar@gmail.com</h6>
                     </div>
                     <div className="num">
                         <p>Call:</p>
@@ -36,7 +36,7 @@ export default function Contact() {
                     <div className="social-icons">
                         <a href="https://github.com/deepanshu-ku-17"><i className="ri-github-line"></i></a>
                         <a href="http://www.linkedin.com/in/deepanshu-kumar-5604b1239"><i className="ri-linkedin-line"></i></a>
-                        <a href="mailto:dipanshuroy584@gmail.com"><i className="ri-mail-line"></i></a>
+                        <a href="mailto:work.deepanshukumar@gmail.com"><i className="ri-mail-line"></i></a>
                         <a href="https://www.instagram.com/17_deepanshu/"><i className="ri-instagram-line"></i></a>
                     </div>
                 </div>
