@@ -18,7 +18,7 @@ export default function Home() {
             <div className="social-icons" style={{marginTop: '18px'}}>
                 <a href="https://github.com/deepanshu-ku-17" aria-label="github"><i className='bx bxl-github'></i></a>
                 <a href="http://www.linkedin.com/in/deepanshu-kumar-5604b1239" aria-label="linkedin"><i className='bx bxl-linkedin'></i></a>
-                <a href="mailto: dipanshuroy584@gmail.com" aria-label="mail"><i className='bx bx-envelope'></i></a>
+                <a href="mailto: work.deepanshukumar@gmail.com" aria-label="mail"><i className='bx bx-envelope'></i></a>
                 <a href="https://www.instagram.com/17_deepanshu/" aria-label="linkedin"><i className='bx bxl-instagram'></i></a>
             </div>
             <div className="h-btn" style={{marginTop: '20px'}}>
